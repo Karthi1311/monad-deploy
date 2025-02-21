@@ -19,7 +19,7 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
 1. Open PowerShell or Git Bash.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/monad-deploy.git
+   git clone https://github.com/Karthi1311/monad-deploy
    cd monad-deploy
 
 3. (Optional) If you encounter script execution errors run this comment:
@@ -54,7 +54,7 @@ Termux (Mobile)
 
 2. Clone the Repository:
    ```bash
-   git clone https://github.com/yourusername/monad-deploy.git
+   git clone https://github.com/Karthi1311/monad-deploy.git
    cd monad-deploy
 
 
@@ -81,7 +81,7 @@ Linux
 
 2. Run:
    ```bash
-   git clone https://github.com/yourusername/monad-deploy.git
+   git clone https://github.com/Karthi1311/monad-deploy.git
    cd monad-deploy
 -
 
