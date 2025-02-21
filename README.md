@@ -31,12 +31,11 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 
 5. Run the following combined command:
-
-npm install && npx hardhat compile
-
-npx hardhat run scripts/deploy.js --network monadTestnet
-
-
+   ```bash
+   npm install && npx hardhat compile
+-
+   ```bash
+   npx hardhat run scripts/deploy.js --network monadTestnet
 
 
 ---
@@ -58,10 +57,11 @@ cd monad-deploy
 
 
 4. Run the following command:
-
-npm install && npx hardhat compile 
-
-npx hardhat run scripts/deploy.js --network monadTestnet
+   ```bash
+   npm install && npx hardhat compile 
+-
+   ```bash
+   npx hardhat run scripts/deploy.js --network monadTestnet
 
 
 
@@ -81,11 +81,12 @@ cd monad-deploy
 3. open and check ( .env )
 
 4. Run the following command:
+   ```bash
+   npm install && npx hardhat compile
 
-npm install && npx hardhat compile
-
-npx hardhat run scripts/deploy.js --network monadTestnet
-
+-
+   ```bash
+   npx hardhat run scripts/deploy.js --network monadTestnet
 
 
 ---
