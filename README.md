@@ -1,14 +1,13 @@
-
 # Monad Token Deployment
 
-To set up and deploy your token, open your terminal in the project directory and run:
+This project deploys a customizable ERC-20 token to the Monad Testnet using Hardhat.
 
-`bash
+## Quick Setup Instructions
+
+Open your terminal in the project directory and run the following command:
+
+```bash
 # (For Windows users: If you face script execution errors, run the following command first)
 # Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-1. npm install
-
-2. npx hardhat compile
-
-3. npx hardhat run scripts/deploy.js --network monadTestnet
+npm install && npx hardhat compile && npx hardhat run scripts/deploy.js --network monadTestnet
