@@ -33,7 +33,7 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
 
 5. Run the following combined command:
    ```bash
-   npm install && npx hardhat compile
+   npm install --no-bin-links && npx hardhat compile
 -
    ```bash
    npx hardhat run scripts/deploy.js --network monadTestnet
