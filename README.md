@@ -22,7 +22,7 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
    git clone https://github.com/yourusername/monad-deploy.git
    cd monad-deploy
 
-3. (Optional) If you encounter script execution errors in PowerShell, run:
+3. (Optional) If you encounter script execution errors run this comment:
 
    ```bash
     Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
