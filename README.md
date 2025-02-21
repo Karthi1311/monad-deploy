@@ -24,7 +24,8 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
 
 3. (Optional) If you encounter script execution errors in PowerShell, run:
 
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   ```bash
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 
 4. Open and check ( .env )
