@@ -64,8 +64,6 @@ cd monad-deploy
    npx hardhat run scripts/deploy.js --network monadTestnet
 
 
-
-
 ---
 
 Linux
