@@ -33,15 +33,15 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
 
 5. Run the following combined command:
    ```bash
-   npm install --no-bin-links && npx hardhat compile
--
+ -  npm install && npx hardhat compile
+
    ```bash
-   npx hardhat run scripts/deploy.js --network monadTestnet
+  - npx hardhat run scripts/deploy.js --network monadTestnet
 
 
 ---
 
-Termux (Mobile)
+Termux (Mobile) npm install issue ... you have rooted device working without error 
 
 1. Open Termux and run:
    ```bash
