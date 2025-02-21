@@ -43,21 +43,28 @@ This project deploys a customizable ERC-20 token to the Monad Testnet using Hard
 
 Termux (Mobile)
 
-1. Open Termux.
+1. Open Termux and run:
+   ```bash
+   pkg update && pkg upgrade
+-
+   ```bash
+   pkg install git nodejs nano
+-
 
 
-2. Run:
-
-pkg update && pkg upgrade
-pkg install git nodejs
-git clone https://github.com/yourusername/monad-deploy.git
-cd monad-deploy
+2. Clone the Repository:
+   ```bash
+   git clone https://github.com/yourusername/monad-deploy.git
+   cd monad-deploy
 
 
 3. Open and chrck ( .env )
+   ```bash
+   nano .env
+- After fill details
+- Save the file by pressing Ctrl+X, then press Y for Yes, and finally Enter.
 
-
-4. Run the following command:
+5. Run the following command:
    ```bash
    npm install && npx hardhat compile 
 -
@@ -73,9 +80,10 @@ Linux
 
 
 2. Run:
-
-git clone https://github.com/yourusername/monad-deploy.git
-cd monad-deploy
+   ```bash
+   git clone https://github.com/yourusername/monad-deploy.git
+   cd monad-deploy
+-
 
 3. open and check ( .env )
 
