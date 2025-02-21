@@ -1,0 +1,21 @@
+{
+  "name": "monad-deploy",
+  "version": "1.0.0",
+  "description": "Deploy ERC-20 Token on Monad Testnet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Karthi1311/monad-deploy.git"
+  },
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network monadTestnet"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
